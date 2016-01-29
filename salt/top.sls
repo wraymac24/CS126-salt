@@ -4,6 +4,7 @@
 # run /srv/salt/cron.sls or /srv/salt/cron/init.sls
 base:
   '*':
+    - users
     - cron
 
 # match only one hose - 925078812.acs.edcc.edu
