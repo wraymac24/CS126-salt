@@ -4,11 +4,13 @@
 # run /srv/salt/cron.sls or /srv/salt/cron/init.sls
 base:
   '*':
-    - users
-    - cron
+    - users.james
+    - packages.htop
+    - config.crypttab
+    - config.hostname
 
 # match only one hose - 925078812.acs.edcc.edu
 # run /srv/salt/packages/git.sls
 
-  '925078812.acs.edcc.edu':
-    - packages.git 
+#  '925078812.acs.edcc.edu':
+#   - packages.git 
