@@ -10,6 +10,8 @@ base:
     - config.hostname
     - firewall.selinux
     - firewall.iptables
+    - nfs.nfs-config
+    - services.nfs-service
 
 # match only one hose - 925078812.acs.edcc.edu
 # run /srv/salt/packages/git.sls
