@@ -12,6 +12,8 @@ base:
     - firewall.iptables
     - nfs.nfs-config
     - services.nfs-service
+    - services.sshd
+    - keys.sls 
 
 # match only one hose - 925078812.acs.edcc.edu
 # run /srv/salt/packages/git.sls
