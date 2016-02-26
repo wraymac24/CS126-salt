@@ -4,7 +4,7 @@ james:
     - fullname: James MacArthur
     - shell: /bin/bash
     - home: /home/james
-    - uid: 1001
+    - uid: 1000
     - gid: 1001
     - groups:
       - wheel
